@@ -1,10 +1,4 @@
-This is a genuinely exciting project — it fits perfectly into the Smart Pest Trap work you've been building. Let me give you the full picture: how to build the AI model, what hardware/software to use, and how the whole system connects.
-
-Here's the complete system architecture first, then I'll break down each layer.Click any block to go deeper. Here's the full breakdown of each layer:
-
----
-
-## 1. The physical trap
+1. The physical trap
 
 Your trap needs to do two things: attract pests and photograph them.
 
@@ -89,7 +83,3 @@ All three are strongly attracted to UV light, so a single trap catches all three
 | Firmware | Arduino IDE + ESP-IDF |
 | Cloud | Firebase Realtime DB (free tier) |
 | Dashboard | Blynk or a simple HTML page hosted on GitHub Pages |
-
----
-
-This connects directly to your EmbedX internship work too — PCB design for the trap board (power regulation, ESP32 footprint, UV LED driver circuit) is exactly what GEC Thrissur will cover. You could frame this project as your internship output. Want me to go deeper on any specific part — the model training pipeline, the TFLite deployment on ESP32, or the PCB schematic?
