@@ -1,4 +1,6 @@
-1. The physical trap
+
+
+## 1. The physical trap
 
 Your trap needs to do two things: attract pests and photograph them.
 
@@ -83,3 +85,5 @@ All three are strongly attracted to UV light, so a single trap catches all three
 | Firmware | Arduino IDE + ESP-IDF |
 | Cloud | Firebase Realtime DB (free tier) |
 | Dashboard | Blynk or a simple HTML page hosted on GitHub Pages |
+
+---
